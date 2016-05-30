@@ -12,7 +12,7 @@ if [[ "$VERSION" == '7' ]]; then
 fi
 
 # Check domain/path availability
-sudo yunohost app checkurl $domain/ -a cozy
+sudo yunohost app checkurl $domain/cozy/ -a cozy
 
 # Check Node.JS version
 NODEJS=`which node || echo 1`
